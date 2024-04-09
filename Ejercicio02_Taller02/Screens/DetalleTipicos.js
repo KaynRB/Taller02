@@ -22,7 +22,7 @@ const DetalleTipicos = ({ route, navigation }) => {
           {typical.ingredientes}
         </Text>
         <Text>
-          <Text style={styles.label}>{'\n'}Precio estimado:</Text>
+          <Text style={styles.label}>{'\n'}Precio promedio:</Text>
           {typical.precio} 
         </Text>
         <Text>
