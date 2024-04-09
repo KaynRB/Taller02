@@ -21,7 +21,7 @@ const DetalleSopas = ({ route, navigation }) => {
           {soup.ingredientes}
         </Text>
         <Text>
-          <Text style={styles.label}>{'\n'}Precio estimado:</Text>
+          <Text style={styles.label}>{'\n'}Precio promedio:</Text>
           {soup.precio} 
         </Text>
         <Text>
