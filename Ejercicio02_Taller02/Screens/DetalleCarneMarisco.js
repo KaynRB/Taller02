@@ -21,7 +21,7 @@ const DetalleCarneMarisco = ({ route, navigation }) => {
           {meatSeafood.ingredientes}
         </Text>
         <Text>
-          <Text style={styles.label}>{'\n'}Precio estimado:</Text>
+          <Text style={styles.label}>{'\n'}Precio promedio:</Text>
           {meatSeafood.precio} 
         </Text>
         <Text>
